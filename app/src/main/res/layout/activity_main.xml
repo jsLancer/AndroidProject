@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.firstcode.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:text="Hello World!"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="FORCE_OFFLINE"
+        android:textAllCaps="false"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="Button1"
+        android:textAllCaps="false"
+        android:layout_gravity="left|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:text="Button1"
+        android:textAllCaps="false"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+    <android.support.percent.PercentRelativeLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentFrameLayout>
